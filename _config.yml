@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SV1TFB - Frank's Projects
+title: "SV1TFB"
+name: "Frank Fourlas"
 email: frank.fourlas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am an Electrical Engineer currently persuing a PhD in Surgical Robotics at
@@ -61,3 +62,43 @@ plugins:
 # Pagination
 paginate: 5
 paginate_path: "/blog/page:num/"
+
+# Theme settings
+minimal_mistakes_skin: "dark"
+locale: "en"
+title_separator: "-"
+subtitle: "The projects of Frank Fourlas"
+repository: "frank20a/frank20a.github.io"
+teaser: "/assets/images/fallback.jpg"
+logo: "/assets/images/logo.png"
+masthead_title: "SV1TFB - Frank's Projects"
+date_format: "%d/%m/%Y"
+enable_copy_code_button: true
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-dark"
+    issue_term: "pathname"
+    label: "comment"
+atom_feed:
+  hide: true
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: false
+      related: true
+      show_date: true
+
+# Scripts that are included to page's head
+# head_scripts:
+#   - https://code.jquery.com/jquery-3.2.1.min.js
+#   - /assets/js/your-custom-head-script.js
