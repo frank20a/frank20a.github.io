@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SV1TFB - Frank's 
+title: SV1TFB - Frank's Projects
 email: frank.fourlas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am an Electrical Engineer currently persuing a PhD in Surgical Robotics at
@@ -34,6 +34,8 @@ github_username: frank20a
 theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +56,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
