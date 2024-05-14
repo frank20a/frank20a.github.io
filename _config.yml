@@ -31,11 +31,12 @@ url: "https://sv1tfb.gr" # the base hostname & protocol for your site, e.g. http
 github_username: frank20a
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.

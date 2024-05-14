@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # gem "jekyll", "~> 4.3.2"
-gem "minimal-mistakes-jekyll"
 
-# gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
