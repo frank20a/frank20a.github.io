@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Frank Fourlas - Personal Website
+title: SV1TFB - Frank's 
 email: frank.fourlas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am an Electrical Engineer currently persuing a PhD in Surgical Robotics at
   the University of Twente. This website contains information about my self, my work
   and, most importantly, my hobbies. Enjoy!
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: "frank20a.github.io"
-url: "https://frank20a.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "sv1tfb.gr"
+url: "https://sv1tfb.gr" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: frank20a
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
