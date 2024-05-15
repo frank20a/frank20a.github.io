@@ -41,6 +41,7 @@ plugins:
   - jekyll-include-cache
   - jemoji
   - jekyll-gist
+  - jekyll-archives
   
 whitelist:
   - jekyll-feed
@@ -49,6 +50,7 @@ whitelist:
   - jekyll-include-cache
   - jemoji
   - jekyll-gist
+  - jekyll-archives
 
 include:
   - _pages
@@ -105,21 +107,7 @@ social:
     - "https://scholar.google.com/citations?user=4E7YLMgAAAAJ&hl=en"
     - "https://www.linkedin.com/in/f-fourlas/"
     - "https://people.utwente.nl/f.fourlas"
-author:
-  name: "Fragiskos (Frank) Fourlas"
-  avatar: "/assets/images/avatar.jpeg"
-  bio: "I am an Electrical Engineer currently persuing a PhD in Surgical Robotics at the University of Twente."
-  location: "Enschede, The Netherlands"
-  links:
-    - label: "Google Scholar"
-      icon: "fa-brands fa-google-scholar"
-      url: "https://scholar.google.com/citations?user=4E7YLMgAAAAJ&hl=en"
-    - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/f-fourlas/"
-    - label: "University of Twente"
-      icon: "fa-solid fa-building-columns"
-      url: "https://people.utwente.nl/f.fourlas"
+author: Frank Fourlas
 # footer:
 #   links:
 #     - label: "Twitter"
@@ -132,6 +120,9 @@ author:
 #       icon: "fab fa-fw fa-instagram"
 #       url: "https://instagram.com/mmistakes"
 timezone: Europe/Amsterdam
+breadcrumbs: true
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
 
 # Defaults
 defaults:
@@ -152,16 +143,23 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      # classes: wide
+      author_profile: false
 
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
-
-# Scripts that are included to page's head
-# head_scripts:
-#   - https://code.jquery.com/jquery-3.2.1.min.js
-#   - /assets/js/your-custom-head-script.js
+# Archives
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/

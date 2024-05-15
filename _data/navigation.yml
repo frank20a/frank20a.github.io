@@ -1,0 +1,10 @@
+main:
+  - title: "Photography"
+    url: /photography/
+    description: "Details about me and this website."
+  - title: "About"
+    url: /about/
+    description: "Details about me and this website."
+  # - title: "External Link"
+  #   url: https://google.com
+  #   target: _blank
