@@ -1,0 +1,10 @@
+---
+layout: categories
+title: Categories
+permalink: /categories/
+---
+
+{% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+      <a href="{{site.baseurl}}/{{category_name}}">{{category_name}}</a>
+  {% endfor %}

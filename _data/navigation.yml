@@ -1,10 +1,41 @@
 main:
   - title: "Photography"
     url: /photography/
-    description: "Details about me and this website."
+  - title: "Electronics"
+    url: /electronics/
+  - title: "Programming & Maths"
+    url: /csmath/
+  - title: "Misc"
+    url: /misc/
   - title: "About"
     url: /about/
-    description: "Details about me and this website."
   # - title: "External Link"
   #   url: https://google.com
   #   target: _blank
+
+nav:
+  - title: "Photography"
+    children:
+      - title: "My photography hobby"
+        url: /photography/
+      - title: "Other photography projects"
+        url: /categories/photography/
+
+  - title: "Electronics"
+    children:
+      - title: "My electronics hobby"
+        url: /electronics/
+      - title: "Other electronics projects"
+        url: /categories/electronics/
+
+  - title: "Programming & Maths"
+    children:
+      - title: "My coding hobby"
+        url: /csmath/
+      - title: "Home server"
+        url: /csmath/homeserver/
+      - title: "Project Euler Solutions"
+        url: /tags/project-euler/
+      - title: "Other programming projects"
+
+  

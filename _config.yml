@@ -42,6 +42,7 @@ plugins:
   - jemoji
   - jekyll-gist
   - jekyll-archives
+  - jekyll-seo-tag
   
 whitelist:
   - jekyll-feed
@@ -51,6 +52,7 @@ whitelist:
   - jemoji
   - jekyll-gist
   - jekyll-archives
+  - jekyll-seo-tag
 
 include:
   - _pages
@@ -85,8 +87,8 @@ locale: "en"
 title_separator: "-"
 subtitle: "The projects of Frank Fourlas"
 repository: "frank20a/frank20a.github.io"
-teaser: "/assets/images/fallback.jpg"
-logo: "/assets/images/logo-small.png"
+# teaser: "/assets/images/fallback.jpg"
+# logo: "/assets/images/logo-small.png"
 masthead_title: "SV1TFB - Frank's Projects"
 date_format: "%d/%m/%Y"
 enable_copy_code_button: true
@@ -99,7 +101,7 @@ comments:
 atom_feed:
   hide: true
 search: true
-codeog_image: /assets/images/logo.png
+# codeog_image: /assets/images/logo.png
 social:
   type: Person
   name: Fragiskos Fourlas
@@ -143,8 +145,23 @@ defaults:
       type: pages
     values:
       layout: single
-      # classes: wide
       author_profile: false
+      sidebar:
+        nav: "nav"
+  - scope:
+      path: ""
+      type: tag
+    values:
+      author_profile: false
+      sidebar:
+        nav: "nav"
+  - scope:
+      path: ""
+      type: category
+    values:
+      author_profile: false
+      sidebar:
+        nav: "nav"
 
 # Archives
 category_archive:
