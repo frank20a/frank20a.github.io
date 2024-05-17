@@ -43,6 +43,7 @@ plugins:
   - jekyll-gist
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-last-modified-at
   
 whitelist:
   - jekyll-feed
@@ -53,6 +54,7 @@ whitelist:
   - jekyll-gist
   - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-last-modified-at
 
 include:
   - _pages

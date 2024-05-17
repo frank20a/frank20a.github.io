@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem "jekyll-archives"
   gem "jekyll-seo-tag"
+  gem "jekyll-last-modified-at"
 end
 
 gem "faraday-retry"
