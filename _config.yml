@@ -44,6 +44,7 @@ plugins:
   - jekyll-archives
   - jekyll-seo-tag
   - jekyll-last-modified-at
+  - jekyll-stickyposts
   
 whitelist:
   - jekyll-feed
@@ -55,6 +56,7 @@ whitelist:
   - jekyll-archives
   - jekyll-seo-tag
   - jekyll-last-modified-at
+  - jekyll-stickyposts
 
 include:
   - _pages
@@ -81,16 +83,16 @@ include:
 
 # Pagination
 paginate: 5
-paginate_path: "/recent/page:num/"
+paginate_path: /page/:num/
 
 # Theme settings
-permalink: /:categories/:title/
 locale: "en"
 title_separator: "-"
 subtitle: "The projects of Frank Fourlas"
 repository: "frank20a/frank20a.github.io"
-# teaser: "/assets/images/fallback.jpg"
-# logo: "/assets/images/logo-small.png"
+teaser: "/assets/images/default-teaser.png"
+codeog_image: /assets/images/default-teaser.png
+logo: "/assets/images/logo.png"
 masthead_title: "SV1TFB - Frank's Projects"
 date_format: "%d/%m/%Y"
 enable_copy_code_button: true
@@ -103,7 +105,6 @@ comments:
 atom_feed:
   hide: true
 search: true
-# codeog_image: /assets/images/logo.png
 social:
   type: Person
   name: Fragiskos Fourlas
@@ -142,6 +143,13 @@ defaults:
       share: false
       related: true
       show_date: true
+  - scope:
+      path: "_posts/project-euler"
+      type: posts
+    values:
+      header:
+        image: "/assets/images/pe-teaser.jpg"
+        teaser: "/assets/images/pe-teaser.jpg"
   - scope:
       path: "_pages"
       type: pages
@@ -182,3 +190,11 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+
+# Sticky posts
+stickyposts:
+  debug: false
+  sort: "date"      # Optional sort field; default: "date", use "none" to avoid sorting
+  # reverse: false     # Ascending order, default: false
+  # retain: false      # Also show sticky posts in their original positions; default: false
+  # reverse_sticky: false    # Reverse the order of the sticky posts, e.g. oldest first; default: false

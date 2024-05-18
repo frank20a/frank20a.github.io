@@ -7,10 +7,7 @@ main:
     url: /csmath/
   - title: "Misc"
     url: /misc/
-  - title: "About"
-    url: /about/
-  # - title: "External Link"
-  #   url: https://google.com
+# To open in a new tab:
   #   target: _blank
 
 nav:
@@ -18,6 +15,8 @@ nav:
     children:
       - title: "My photography hobby"
         url: /photography/
+      - title: "Analogue Photography"
+        url: /analogue-photography
       - title: "Other photography projects"
         url: /categories/photography/
 
@@ -25,6 +24,8 @@ nav:
     children:
       - title: "My electronics hobby"
         url: /electronics/
+      - title: "Synthesizer"
+        url: /synth
       - title: "Other electronics projects"
         url: /categories/electronics/
 
@@ -37,5 +38,19 @@ nav:
       - title: "Project Euler Solutions"
         url: /tags/project-euler/
       - title: "Other programming projects"
+        url: /categories/csmath
+
+  - title: "Miscellaneous"
+    children: 
+      - title: "My other hobbies"
+        url: /misc/
+      - title: "Board Games"
+        url: /boardgames
+
+  - title: "All posts by category"
+    url: /categories/
+  - title: "All posts by tag"
+    url: /tags/
+
 
   

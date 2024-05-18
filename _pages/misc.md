@@ -1,4 +1,4 @@
 ---
-title: "Miscellaneous Projects"
+title: "Other projects & hobbies"
 permalink: /misc/
 ---
