@@ -38,14 +38,16 @@ nav:
       - title: "Project Euler Solutions"
         url: /tags/project-euler/
       - title: "Other programming projects"
-        url: /categories/csmath
+        url: /categories/csmath/
 
   - title: "Miscellaneous"
     children: 
-      - title: "My other hobbies"
-        url: /misc/
+      - title: "Travelling"
+        url: /categories/travel/
+      - title: "Cooking"
+        url: /categories/cooking/
       - title: "Board Games"
-        url: /boardgames
+        url: /boardgames/
 
   - title: "All posts by category"
     url: /categories/

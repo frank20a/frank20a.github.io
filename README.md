@@ -5,6 +5,9 @@ My personal website
 - photography
 - electronics
 - csmath
+- travel
 
 ## Used tags
 - project-euler
+- synth
+- boardgames

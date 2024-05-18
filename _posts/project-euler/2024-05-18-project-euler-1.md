@@ -8,7 +8,7 @@ permalink: /project-euler/1/
 [Project Euler](https://projecteuler.net/) is a website with a collection of challenging computational problems intended to be solved with computer programs. 
 In this series, I will work on solving these problems using Python.
 
-[The first problem](https://projecteuler.net/problem=1) starts real easy. 
+[Problem 1](https://projecteuler.net/problem=1) starts real easy. 
 It asks us to find the sum of all the multiples of 3 or 5 below 1000. 
 This can be easily solved using the modulo operator `%`. 
 The modulo operator returns the remainder of the euclidean division of the two operands. 
