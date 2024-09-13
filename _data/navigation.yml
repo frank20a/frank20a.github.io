@@ -1,55 +1,49 @@
 main:
   - title: "Photography"
-    url: /photography/
+    url: /categories/#photography
   - title: "Electronics"
-    url: /electronics/
+    url: /categories/#electronics
   - title: "Programming & Maths"
-    url: /csmath/
+    url: /categories/#csmath
   - title: "Misc"
-    url: /categories/misc/
+    url: /categories/#misc
 # To open in a new tab:
   #   target: _blank
 
 nav:
   - title: "Photography"
     children:
-      - title: "My photography hobby"
-        url: /photography/
       - title: "Analogue Photography"
-        url: /tags/analogue-photography
+        url: /tags/#analogue-photography
       - title: "Other photography projects"
-        url: /categories/photography/
+        url: /categories/#photography
 
   - title: "Electronics"
     children:
-      - title: "My electronics hobby"
-        url: /electronics/
       - title: "Synthesizer"
-        url: /synth
+        url: /tags/#synth
       - title: "Amateur Radio"
-        url: /tags/ham-radio/
+        url: /tags/#ham-radio
       - title: "Other electronics projects"
-        url: /categories/electronics/
+        url: /categories/#electronics
 
   - title: "Programming & Maths"
     children:
-      - title: "My coding hobby"
-        url: /csmath/
       - title: "Home server"
-        url: /csmath/homeserver/
+        url: /tags/#home-server
       - title: "Project Euler Solutions"
-        url: /tags/project-euler/
+        url: /tags/#project-euler
       - title: "Other programming projects"
-        url: /categories/csmath/
+        url: /categories/#csmath
 
   - title: "Miscellaneous"
     children: 
       - title: "Travelling"
-        url: /tags/travel/
+        url: /tags/#travel
       - title: "Cooking"
-        url: /categories/cooking/
+        url: /tags/#cooking
       - title: "Board Games"
-        url: /boardgames/
+        url: /tags/#boardgames
 
   - title: "All posts by category"
     url: /categories/

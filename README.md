@@ -13,9 +13,22 @@ bundle exec jekyll serve --drafts
 - photography
 - electronics
 - csmath
-- travel
+- misc
 
 ## Used tags
-- project-euler
-- synth
-- boardgames
+- photography
+    - digital-photography
+    - analogue-photography
+- csmath
+    - project-euler
+    - home-server
+- electronics
+    - synth
+    - ham-radio
+- misc
+    - boardgames
+    - travel
+    - cooking
+    - diving
+    - geocahing
+    - hiking
