@@ -25,6 +25,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-last-modified-at
   - jekyll-stickyposts
+  - jekyll-sitemap
   
 whitelist:
   - jekyll-feed
@@ -50,8 +51,8 @@ locale: "en"
 title_separator: "-"
 subtitle: "The projects of Frank Fourlas"
 repository: "frank20a/frank20a.github.io"
-teaser: "/assets/images/default-teaser.png"
-og_image: /assets/images/default-teaser.png
+teaser: "/assets/images/teasers/default-teaser.png"
+og_image: /assets/images/teasers/default-teaser.png
 logo: "/assets/images/logo.png"
 masthead_title: "SV1TFB - Frank's Projects"
 date_format: "%d/%m/%Y"
@@ -99,8 +100,8 @@ defaults:
       type: posts
     values:
       header:
-        image: "/assets/images/pe-teaser.jpg"
-        teaser: "/assets/images/pe-teaser.jpg"
+        image: "/assets/images/banners/pe-banner.jpg"
+        teaser: "/assets/images/teasers/pe-teaser.png"
   - scope:
       path: "_pages"
       type: pages

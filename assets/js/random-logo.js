@@ -1,0 +1,1 @@
+$(".site-logo").html('<img src="/assets/images/logos/logo_' + Math.floor(Math.random() * 264) + '.png" alt="SV1TFB - Frank\'s Projects" />');

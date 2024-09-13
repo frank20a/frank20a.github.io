@@ -6,7 +6,7 @@ main:
   - title: "Programming & Maths"
     url: /csmath/
   - title: "Misc"
-    url: /misc/
+    url: /categories/misc/
 # To open in a new tab:
   #   target: _blank
 
@@ -16,7 +16,7 @@ nav:
       - title: "My photography hobby"
         url: /photography/
       - title: "Analogue Photography"
-        url: /analogue-photography
+        url: /tags/analogue-photography
       - title: "Other photography projects"
         url: /categories/photography/
 
@@ -26,6 +26,8 @@ nav:
         url: /electronics/
       - title: "Synthesizer"
         url: /synth
+      - title: "Amateur Radio"
+        url: /tags/ham-radio/
       - title: "Other electronics projects"
         url: /categories/electronics/
 
@@ -43,7 +45,7 @@ nav:
   - title: "Miscellaneous"
     children: 
       - title: "Travelling"
-        url: /categories/travel/
+        url: /tags/travel/
       - title: "Cooking"
         url: /categories/cooking/
       - title: "Board Games"
