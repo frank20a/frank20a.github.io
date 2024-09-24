@@ -14,6 +14,7 @@ bundle exec jekyll serve --drafts
 - electronics
 - csmath
 - misc
+- sports
 
 ## Used tags
 - photography
@@ -29,6 +30,7 @@ bundle exec jekyll serve --drafts
     - boardgames
     - travel
     - cooking
-    - diving
     - geocahing
+- sports
+    - diving
     - hiking

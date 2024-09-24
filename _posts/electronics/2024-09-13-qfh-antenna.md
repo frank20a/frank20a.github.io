@@ -21,7 +21,7 @@ results-gallery:
     alt: "Meteor M2-3 Reception"
     title: "Meteor M2-3 Reception"
 permalink: /qfh-antenna/
-excerpt: "In 2018, I got my hands on an RTL-SDR and my ham-radio journy begun. Since I read a tutorial on weather satellite reception, I've wantedd to try it out but lacked the equipment. This summer, I finally built a Quadrifilar Helix Antenna for the 137 MHz band. Here's how I did it..."
+excerpt: "In 2018, I got my hands on an RTL-SDR and my ham-radio journey begun. Since I read a tutorial on weather satellite reception, I've wanted to try it out but lacked the equipment. This summer, I finally built a Quadrifilar Helix Antenna for the 137 MHz band. Here's how I did it..."
 header:
   overlay_image: /assets/images/posts/qfh-antenna/head.jpg
   overlay_filter: 0.33

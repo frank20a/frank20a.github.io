@@ -1,6 +1,6 @@
 ---
 title:  "I started a scuba diving course!"
-categories: misc sports
+categories: sports misc
 tags: diving
 permalink: /scuba-start/
 header:

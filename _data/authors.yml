@@ -19,3 +19,6 @@ Frank Fourlas:
     - label   : "University of Twente"
       icon    : "fa-solid fa-building-columns"
       url     : "https://people.utwente.nl/f.fourlas"
+    - label   : "QRZ"
+      icon    : "fa-solid fa-tower-cell"
+      url     : "https://www.qrz.com/db/sv1tfb"
