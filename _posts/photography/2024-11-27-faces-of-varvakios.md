@@ -1,7 +1,7 @@
 ---
 title:  "Faces of Varvakios"
 categories: photography
-tags: analog-photography street-photography
+tags: analog-photography street-photography ilford delta-3200
 gallery-1:
   - image_path: /assets/images/posts/faces-of-varvakios/1.jpg
     url: /assets/images/posts/faces-of-varvakios/1.jpg
